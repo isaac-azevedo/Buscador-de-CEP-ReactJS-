@@ -13,7 +13,7 @@ function App() {
     //https://viacep.com.br/ws/01001000/json/
 
     if(input === '') {
-      alert('Digite um CEP válido!');
+      alert('Digite um cep válido!');
       return;
     }
 
@@ -32,12 +32,12 @@ function App() {
 
   return (
     <div className= "container">
-      <h1 className="title">Buscador de CEP</h1>
+      <h1 className="title">Buscador de cep</h1>
 
       <div className="containerInput">
         <input
           type="text"
-          placeholder="Digite o CEP..."
+          placeholder="Digite o cep..."
           value={input}
           onChange={(event) => setInput(event.target.value)}
         />
